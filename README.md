@@ -33,18 +33,16 @@ We collected high-resolution RGB images from commercial apple orchards (Scilate 
 
 ## Repo Structure
 
-```
-GOOGLE COLAB
+### GOOGLE COLAB
 
-project-name/
+```
+
+GOOGLE_COLAB/
 │
-├── directory_example/
-│   ├── file_example.ipynb
-│   ├── file_example.ipynb
-│   ├── file_example.ipynb
-│   └── directory_example/
-│       ├── file_example.py
-│       └── file_example.py
+├── tinyCLIP.ipynb
+├── pipeline.ipynb
+└── README.md
+│
 │
 ├── directory_example/
 │   ├── file_example.py
