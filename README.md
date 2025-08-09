@@ -9,7 +9,7 @@ We collected high-resolution RGB images from commercial apple orchards (Scilate 
 
 ## Table of Contents
 
-- [Installation](#installation)
+- [Getting Started](#Getting-Started)
 - [Project Structure](#project-structure)
 - [Dataset](#dataset)
 - [Methodology](#methodology)
@@ -20,7 +20,7 @@ We collected high-resolution RGB images from commercial apple orchards (Scilate 
 - [License](#license)
 - [Contributing](#contributing)
 
-## Installation
+## Getting Started
 
 ### Requirements
 
