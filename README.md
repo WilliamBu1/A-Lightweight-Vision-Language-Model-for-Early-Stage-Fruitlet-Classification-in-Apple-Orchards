@@ -24,10 +24,9 @@ We collected high-resolution RGB images from commercial apple orchards (Scilate 
 
 ### Requirements
 
-- Python 3.8+
-- PyTorch 1.12+
-- CUDA 11.0+ (for GPU support)
-- Jetson Orin support (for edge deployment)
+- Google Colab
+- Jetson Orin
+
 
 ### Setup
 
