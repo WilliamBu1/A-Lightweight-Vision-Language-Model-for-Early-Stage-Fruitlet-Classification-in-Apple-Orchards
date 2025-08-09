@@ -49,90 +49,87 @@ pip install -e .
 ## Project Structure
 
 ```
-apple-fruitlet-localization/
+GOOGLE COLAB
+
+project-name/
 │
-├── data/                           # Data directory
-│   ├── raw/                       # Raw orchard images
-│   │   ├── scilate/              # Scilate variety images
-│   │   └── scifresh/             # Scifresh variety images
-│   ├── processed/                # Processed image patches
-│   │   ├── patches/              # Extracted patches
-│   │   └── annotations/          # Patch annotations
-│   └── splits/                   # Train/validation/test splits
+├── directory_example/
+│   ├── file_example.ipynb
+│   ├── file_example.ipynb
+│   ├── file_example.ipynb
+│   └── directory_example/
+│       ├── file_example.py
+│       └── file_example.py
 │
-├── src/                           # Source code
-│   ├── __init__.py
-│   ├── data/                     # Data processing modules
-│   │   ├── __init__.py
-│   │   ├── patch_extraction.py   # Sliding window patch extraction
-│   │   ├── data_loader.py        # Dataset loading utilities
-│   │   └── augmentations.py      # Data augmentation
+├── directory_example/
+│   ├── file_example.py
+│   ├── directory_example/
+│   │   ├── file_example.py
+│   │   ├── file_example.py
+│   │   └── file_example.py
 │   │
-│   ├── models/                   # Model implementations
-│   │   ├── __init__.py
-│   │   ├── tinyclip.py          # TinyCLIP model wrapper
-│   │   ├── losses.py            # Multilabel contrastive loss
-│   │   └── utils.py             # Model utilities
+│   ├── directory_example/
+│   │   ├── file_example.py
+│   │   ├── file_example.py
+│   │   └── file_example.py
 │   │
-│   ├── training/                 # Training scripts
-│   │   ├── __init__.py
-│   │   ├── train.py             # Main training loop
-│   │   ├── evaluate.py          # Evaluation metrics
-│   │   └── config.py            # Training configuration
-│   │
-│   ├── inference/                # Inference and deployment
-│   │   ├── __init__.py
-│   │   ├── predict.py           # Prediction pipeline
-│   │   ├── heatmap.py           # Heatmap generation
-│   │   └── deploy.py            # Deployment utilities
-│   │
-│   └── visualization/            # Visualization tools
-│       ├── __init__.py
-│       ├── plot_results.py      # Result visualization
-│       └── heatmap_vis.py       # Heatmap visualization
+│   └── directory_example/
+│       ├── file_example.py
+│       └── file_example.py
 │
-├── experiments/                  # Experiment configurations
-│   ├── baseline/                # Baseline experiments
-│   ├── ablation/                # Ablation studies
-│   └── deployment/              # Deployment benchmarks
+├── directory_example/
+│   ├── directory_example/
+│   ├── directory_example/
+│   └── directory_example/
 │
-├── results/                     # Experimental results
-│   ├── models/                  # Trained model checkpoints
-│   ├── figures/                 # Generated figures
-│   ├── metrics/                 # Evaluation metrics
-│   └── heatmaps/               # Generated heatmaps
+├── directory_example/
+│   ├── file_example.yaml
+│   └── file_example.yaml
 │
-├── scripts/                     # Utility scripts
-│   ├── data_preparation.sh      # Data preprocessing pipeline
-│   ├── train_model.sh          # Training script
-│   ├── evaluate_model.sh       # Evaluation script
-│   └── benchmark_deployment.sh  # Deployment benchmarking
-│
-├── notebooks/                   # Jupyter notebooks
-│   ├── data_exploration.ipynb   # Data analysis and exploration
-│   ├── model_analysis.ipynb     # Model performance analysis
-│   └── visualization.ipynb      # Result visualization
-│
-├── tests/                       # Unit tests
-│   ├── test_data.py
-│   ├── test_models.py
-│   └── test_inference.py
-│
-├── docs/                        # Documentation
-│   ├── installation.md
-│   ├── usage.md
-│   └── deployment.md
-│
-├── requirements.txt             # Python dependencies
-├── setup.py                    # Package setup
-├── LICENSE                     # License file
-├── .gitignore                  # Git ignore rules
-└── README.md                   # This file
+├── file_example.txt
+└── file_example.md
 ```
 
 ```
-FOR GOOGLE COLAB ENVIRONMENT
+JETSON EDGE DEVICE
 
+project-name/
+│
+├── directory_example/
+│   ├── file_example.ipynb
+│   ├── file_example.ipynb
+│   ├── file_example.ipynb
+│   └── directory_example/
+│       ├── file_example.py
+│       └── file_example.py
+│
+├── directory_example/
+│   ├── file_example.py
+│   ├── directory_example/
+│   │   ├── file_example.py
+│   │   ├── file_example.py
+│   │   └── file_example.py
+│   │
+│   ├── directory_example/
+│   │   ├── file_example.py
+│   │   ├── file_example.py
+│   │   └── file_example.py
+│   │
+│   └── directory_example/
+│       ├── file_example.py
+│       └── file_example.py
+│
+├── directory_example/
+│   ├── directory_example/
+│   ├── directory_example/
+│   └── directory_example/
+│
+├── directory_example/
+│   ├── file_example.yaml
+│   └── file_example.yaml
+│
+├── file_example.txt
+└── file_example.md
 ```
 
 ## Dataset
