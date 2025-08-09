@@ -22,29 +22,14 @@ We collected high-resolution RGB images from commercial apple orchards (Scilate 
 
 ## Getting Started
 
-### Requirements
+### Technologies used
 
 - Google Colab
 - Jetson Orin
+- TinyCLIP VLM
+- Python
 
 
-### Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/username/apple-fruitlet-localization.git
-cd apple-fruitlet-localization
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Install the package in development mode
-pip install -e .
-```
 
 ## Project Structure
 
