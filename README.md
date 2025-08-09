@@ -130,6 +130,11 @@ apple-fruitlet-localization/
 └── README.md                   # This file
 ```
 
+```
+FOR GOOGLE COLAB ENVIRONMENT
+
+```
+
 ## Dataset
 
 ### Data Collection
