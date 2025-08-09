@@ -44,7 +44,7 @@ GOOGLE_COLAB/
 └── README.md
 │
 │
-├── directory_example/
+├── data/
 │   ├── file_example.py
 │   ├── directory_example/
 │   │   ├── file_example.py
@@ -59,15 +59,6 @@ GOOGLE_COLAB/
 │   └── directory_example/
 │       ├── file_example.py
 │       └── file_example.py
-│
-├── directory_example/
-│   ├── directory_example/
-│   ├── directory_example/
-│   └── directory_example/
-│
-├── directory_example/
-│   ├── file_example.yaml
-│   └── file_example.yaml
 │
 ├── file_example.txt
 └── file_example.md
