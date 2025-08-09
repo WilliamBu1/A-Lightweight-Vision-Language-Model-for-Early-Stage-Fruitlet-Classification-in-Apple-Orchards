@@ -207,84 +207,6 @@ project-name/
 - Real-time performance metrics
 ```
 
-## Usage
-
-### Quick Start
-
-```bash
-# Prepare data
-python scripts/data_preparation.py --data_dir data/raw --output_dir data/processed
-
-# Train model
-python src/training/train.py --config experiments/baseline/config.yaml
-
-# Generate predictions
-python src/inference/predict.py --model_path results/models/best_model.pth --image_dir data/test
-
-# Visualize results
-python src/visualization/heatmap_vis.py --predictions results/predictions --output results/heatmaps
-```
-
-### Detailed Usage Examples
-
-[Placeholder for detailed usage instructions, code examples, and configuration options]
-
-## Deployment
-
-### Jetson Orin Deployment
-
-```bash
-# Install Jetson-specific dependencies
-./scripts/setup_jetson.sh
-
-# Optimize model for edge deployment
-python src/inference/optimize_model.py --model_path results/models/best_model.pth
-
-# Run deployment benchmark
-./scripts/benchmark_deployment.sh
-```
-
-### Performance Optimization
-
-[Placeholder for deployment optimization guidelines, model quantization details, and performance tuning instructions]
-
-## Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@article{author2024apple,
-  title={Lightweight Vision-Language Models for Apple Fruitlet Structure Localization in Precision Orchard Management},
-  author={[Author Names]},
-  journal={[Journal Name]},
-  year={2024},
-  volume={[Volume]},
-  pages={[Pages]},
-  doi={[DOI]}
-}
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to submit pull requests, report issues, and contribute to the project.
-
-### Development Setup
-
-```bash
-# Install development dependencies
-pip install -r requirements-dev.txt
-
-# Run tests
-python -m pytest tests/
-
-# Code formatting
-black src/ tests/
-flake8 src/ tests/
-```
 
 ## Acknowledgments
 
@@ -296,4 +218,3 @@ flake8 src/ tests/
 ---
 
 **Contact**: [Your contact information]  
-**Project Link**: [https://github.com/username/apple-fruitlet-localization](https://github.com/username/apple-fruitlet-localization)
