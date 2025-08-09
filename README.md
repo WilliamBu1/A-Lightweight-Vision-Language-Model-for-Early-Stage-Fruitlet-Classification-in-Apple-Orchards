@@ -193,10 +193,10 @@ project-name/
 
 #### Inference Performance
 
-| Platform    | Model Size | Inference Time | Memory Usage | Power Consumption |
-|------------|------------|----------------|--------------|------------------|
-| RTX 3080   | [TBD]      | [TBD] ms      | [TBD] MB     | [TBD] W         |
-| Jetson Orin| [TBD]      | [TBD] ms      | [TBD] MB     | [TBD] W         |
+| Platform    | Model Size | Inference Time | Memory Usage |
+|------------|------------|----------------|--------------|
+| COLAB T4 GPU   | [TBD]      | [TBD] ms      | [TBD] MB     |
+| Jetson Orin| [TBD]      | [TBD] ms      | [TBD] MB     |
 
 #### Comparison with Baseline Methods
 
