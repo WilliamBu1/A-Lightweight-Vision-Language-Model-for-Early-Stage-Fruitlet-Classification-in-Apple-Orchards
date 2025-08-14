@@ -196,15 +196,23 @@ This is for single image patch inference(224 x 224 pixel patch)
 ### Sample Visualizations
 
 #### Single patch inference
-
-<img src="images/Examples.png" alt="Examples" width="50%">
-<img src="images/misclass.png" alt="Misclassification" width="50%">
+<p align="center">
+<img src="images/Examples.png" alt="Examples" width="70%">
+</p>
+<p align="center">
+<img src="images/misclass.png" alt="Misclassification" width="70%">
+</p>
 
 #### HeatMaps
-
-<img src="images/heat12.png" alt="T4 GPU GOOGLE COLAB" width="50%">
-<img src="images/fp16_heat12.png" alt="JETSON ORIN FP16" width="50%">
-<img src="images/int8_heat12.png" alt="JETSON ORIN INT 8" width="50%">
+<p align="center">
+<img src="images/heat12.png" alt="T4 GPU GOOGLE COLAB" width="70%">
+</p>
+<p align="center">
+<img src="images/fp16_heat12.png" alt="JETSON ORIN FP16" width="70%">
+</p>
+<p align="center">
+<img src="images/int8_heat12.png" alt="JETSON ORIN INT 8" width="70%">
+</p>
 
 ### Deployment Benchmarks
 
