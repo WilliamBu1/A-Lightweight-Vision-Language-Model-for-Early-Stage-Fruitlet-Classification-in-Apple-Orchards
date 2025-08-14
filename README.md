@@ -163,11 +163,13 @@ project-name/
 
 ### Performance Metrics in Google Colab T4 GPU using PyTorch model
 
+This is for single image patch inference(224 x 224 pixel patch)
+
 | Structure Type | Precision | Recall | F1-Score | Inference Time (ms) |
 |---------------|-----------|--------|----------|-------------------|
-| Calyxes       | [0.9639]     | [TBD]  | [TBD]    | [TBD]            |
-| Fruitlets     | [TBD]     | [TBD]  | [TBD]    | [TBD]            |
-| Peduncles     | [TBD]     | [TBD]  | [TBD]    | [TBD]            |
+| Calyxes       | 0.9639     | 0.9412  | 0.9524    | [TBD]            |
+| Fruitlets     | 0.9881     | 0.9765  | 0.9822    | [TBD]            |
+| Peduncles     | 0.9844     | 0.7500  | 0.8514    | [TBD]            |
 
 ### Sample Visualizations
 
