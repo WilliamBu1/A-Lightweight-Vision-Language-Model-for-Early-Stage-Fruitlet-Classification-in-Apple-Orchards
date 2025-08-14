@@ -118,7 +118,7 @@ project-name/
 - Format: High-resolution RGB images
 - Collection environment: Commercial apple orchards
 - Target structures: Calyxes, fruitlets, peduncles
-- Annotation method: [Details about annotation process]
+- Annotation method: ROBOFLOW annotations of the three target structures + negatives(randomly selected regions in the images that do not overlap the targeted structures annotations)
 
 ### Data Preprocessing
 
