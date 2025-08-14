@@ -122,15 +122,14 @@ project-name/
 
 ### Data Preprocessing
 
-- **Patch Extraction**: Sliding window approach for systematic patch generation
-- **Batch Processing**: Efficient processing of large-scale orchard imagery
-- **Annotation Strategy**: [Details about multilabel annotation approach]
+- **Patch Extraction**: Each image is broken up into ~900 image patches, each being 224x224 in pixel size
+- **Batch Processing**: Depending on the platform, we used different batch sizes to optimize full image processing speed
 
 ## Methodology
 
 ### Model Architecture
 
-**TinyCLIP Framework:**
+**TinyCLIP-ViT-61M-32-Text-29M-LAION400M:**
 - Lightweight Vision-Language Model optimized for resource-constrained deployment
 - Semantic alignment between visual patches and natural language descriptions
 - Efficient architecture suitable for edge computing platforms
