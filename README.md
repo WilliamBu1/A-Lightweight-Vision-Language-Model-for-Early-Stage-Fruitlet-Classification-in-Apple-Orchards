@@ -161,11 +161,11 @@ project-name/
 
 ## Example Results
 
-### Performance Metrics
+### Performance Metrics in Google Colab T4 GPU using PyTorch model
 
 | Structure Type | Precision | Recall | F1-Score | Inference Time (ms) |
 |---------------|-----------|--------|----------|-------------------|
-| Calyxes       | [TBD]     | [TBD]  | [TBD]    | [TBD]            |
+| Calyxes       | [0.9639]     | [TBD]  | [TBD]    | [TBD]            |
 | Fruitlets     | [TBD]     | [TBD]  | [TBD]    | [TBD]            |
 | Peduncles     | [TBD]     | [TBD]  | [TBD]    | [TBD]            |
 
