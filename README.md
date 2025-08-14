@@ -195,26 +195,14 @@ This is for single image patch inference(224 x 224 pixel patch)
 
 ### Sample Visualizations
 
+#### Single patch inference
+
 <img src="images/Examples.png" alt="Examples" width="50%">
 <img src="images/misclass.png" alt="Misclassification" width="50%">
 
-#### Original Images vs. Localization Heatmaps
+#### HeatMaps
 
-**Scilate Variety:**
-```
-[Placeholder for sample images and corresponding heatmaps]
-- Original orchard image
-- Generated heatmap overlay
-- Detected structure locations
-```
-
-**Scifresh Variety:**
-```
-[Placeholder for sample images and corresponding heatmaps]
-- Original orchard image
-- Generated heatmap overlay
-- Detected structure locations
-```
+PLACEHOLDER
 
 ### Deployment Benchmarks
 
