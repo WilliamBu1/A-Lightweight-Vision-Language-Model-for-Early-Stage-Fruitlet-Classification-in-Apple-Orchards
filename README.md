@@ -202,7 +202,9 @@ This is for single image patch inference(224 x 224 pixel patch)
 
 #### HeatMaps
 
-PLACEHOLDER
+<img src="images/heat12.png" alt="Examples" width="50%">
+<img src="images/fp16_heat12.png.png" alt="Misclassification" width="50%">
+<img src="images/int8_heat12.png.png" alt="Misclassification" width="50%">
 
 ### Deployment Benchmarks
 
