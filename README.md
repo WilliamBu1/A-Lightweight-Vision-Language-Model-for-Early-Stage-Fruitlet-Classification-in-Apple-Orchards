@@ -161,6 +161,27 @@ project-name/
 
 ## Example Results
 
+### Sample Visualizations
+
+#### Single patch inference
+<p align="center">
+<img src="images/Examples.png" alt="Examples" width="70%">
+</p>
+<p align="center">
+<img src="images/misclass.png" alt="Misclassification" width="70%">
+</p>
+
+#### HeatMaps
+<p align="center">
+<img src="images/heat12.png" alt="T4 GPU GOOGLE COLAB" width="70%">
+</p>
+<p align="center">
+<img src="images/fp16_heat12.png" alt="JETSON ORIN FP16" width="70%">
+</p>
+<p align="center">
+<img src="images/int8_heat12.png" alt="JETSON ORIN INT 8" width="70%">
+</p>
+
 ### Performance Metrics in Google Colab T4 GPU using PyTorch model
 
 This is for single image patch inference(224 x 224 pixel patch)
@@ -192,27 +213,6 @@ This is for single image patch inference(224 x 224 pixel patch)
 | Fruitlets     | 0.9765     | 0.9765  | 0.9765     |
 | Peduncles     | 1.0000    | 0.6786  | 0.8085    |
 
-
-### Sample Visualizations
-
-#### Single patch inference
-<p align="center">
-<img src="images/Examples.png" alt="Examples" width="70%">
-</p>
-<p align="center">
-<img src="images/misclass.png" alt="Misclassification" width="70%">
-</p>
-
-#### HeatMaps
-<p align="center">
-<img src="images/heat12.png" alt="T4 GPU GOOGLE COLAB" width="70%">
-</p>
-<p align="center">
-<img src="images/fp16_heat12.png" alt="JETSON ORIN FP16" width="70%">
-</p>
-<p align="center">
-<img src="images/int8_heat12.png" alt="JETSON ORIN INT 8" width="70%">
-</p>
 
 ### Deployment Benchmarks
 
