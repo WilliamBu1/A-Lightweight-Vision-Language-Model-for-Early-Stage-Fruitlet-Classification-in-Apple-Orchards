@@ -195,6 +195,9 @@ This is for single image patch inference(224 x 224 pixel patch)
 
 ### Sample Visualizations
 
+![Examples](images/examples.png)
+![Misclassification](images/misclass.png)
+
 #### Original Images vs. Localization Heatmaps
 
 **Scilate Variety:**
