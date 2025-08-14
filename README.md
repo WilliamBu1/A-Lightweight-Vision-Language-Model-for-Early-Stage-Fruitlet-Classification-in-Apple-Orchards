@@ -226,7 +226,11 @@ This is for single image patch inference(224 x 224 pixel patch)
 
 #### HeatMap pipeline
 
-PLACEHOLDER
+| Platform | Model Type   | Model Size | Batch Size|Average Inference Time |
+|----------|------------|------------|------------|----------------|
+| Google Colab T4 GPU | PyTorch  | 440.30 mb      | 64 | 4.17 s     | 
+| Jetson Orin | TensorRT fp16| 126.98 mb     | 8 | 6.84 s      | 
+| Jetson Orin | TensorRT int8| 137.15 mb    | 8 | 6.67 s      |
 
 
 
