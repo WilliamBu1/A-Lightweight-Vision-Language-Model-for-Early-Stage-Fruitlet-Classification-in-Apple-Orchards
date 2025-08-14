@@ -218,10 +218,11 @@ This is for single image patch inference(224 x 224 pixel patch)
 
 #### Inference Performance
 
-| Platform    | Model Size | Inference Time | Memory Usage |
-|------------|------------|----------------|--------------|
-| COLAB T4 GPU   | [TBD]      | [TBD] ms      | [TBD] MB     |
-| Jetson Orin| [TBD]      | [TBD] ms      | [TBD] MB     |
+| Model Type   | Model Size | Average Inference Time |
+|------------|------------|----------------|
+| PyTorch  | 440.30      | 19.02 ms      | 
+| TensorRT fp16| 126.98 mb      | 10.38 ms      | 
+| TensorRT int8| 137.15 mb    | 8.93 ms      |
 
 #### Comparison with Baseline Methods
 
