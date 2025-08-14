@@ -163,7 +163,7 @@ project-name/
 
 ### Sample Visualizations
 
-#### Single patch inference
+#### Single patch inference:
 <p align="center">
 <img src="images/Examples.png" alt="Examples" width="70%">
 </p>
@@ -171,7 +171,7 @@ project-name/
 <img src="images/misclass.png" alt="Misclassification" width="70%">
 </p>
 
-#### HeatMaps
+#### HeatMaps:
 <p align="center">
 <img src="images/heat12.png" alt="T4 GPU GOOGLE COLAB" width="70%">
 </p>
