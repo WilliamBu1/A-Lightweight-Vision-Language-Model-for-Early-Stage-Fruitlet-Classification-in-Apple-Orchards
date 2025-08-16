@@ -16,10 +16,6 @@ We collected high-resolution RGB images from commercial apple orchards (Scilate 
 - [Example Results](#example-results)
 - [Usage](#usage)
 - [Deployment](#deployment)
-- [Citation](#citation)
-- [License](#license)
-- [Contributing](#contributing)
-
 ## Getting Started
 
 ### Technologies used
