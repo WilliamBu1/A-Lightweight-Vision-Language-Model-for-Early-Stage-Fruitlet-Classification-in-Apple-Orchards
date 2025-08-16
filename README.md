@@ -36,26 +36,6 @@ GOOGLE_COLAB/
 │
 ├── tinyCLIP.ipynb
 ├── pipeline.ipynb
-└── README.md
-│
-│
-├── data/
-│   ├── file_example.py
-│   ├── directory_example/
-│   │   ├── file_example.py
-│   │   ├── file_example.py
-│   │   └── file_example.py
-│   │
-│   ├── directory_example/
-│   │   ├── file_example.py
-│   │   ├── file_example.py
-│   │   └── file_example.py
-│   │
-│   └── directory_example/
-│       ├── file_example.py
-│       └── file_example.py
-│
-├── file_example.txt
 └── file_example.md
 ```
 
