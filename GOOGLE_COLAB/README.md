@@ -54,8 +54,4 @@ Two-stage approach for localizing apple fruitlet anatomical structures in high-r
 - Limited by dataset quality for comprehensive performance assessment
 - Evaluation focuses on qualitative heatmap analysis rather than precise localization accuracy
 
-## Applications
-- Automated apple quality assessment
-- Precision agriculture monitoring  
-- Robotic harvesting guidance
-- Orchard management decision support
+
