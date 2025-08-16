@@ -5,7 +5,8 @@ Two-stage approach for localizing apple fruitlet anatomical structures in high-r
 
 ## Notebooks
 
-(You may need to adjust the paths in the notebooks to be inlign with your specific setup. However it should mostly lineup if you upload necessary data into the Google Colab session content)
+⚠️ **Warning:** You may need to adjust the paths in the notebooks to be inlign with your specific setup. However it should mostly lineup if you upload necessary data into the Google Colab session content.
+
 
 ### 1. TinyCLIP Fine-tuning (`tinyCLIP.ipynb`)
 **Purpose**: Fine-tune TinyCLIP model on small image patches for multi-label classification
