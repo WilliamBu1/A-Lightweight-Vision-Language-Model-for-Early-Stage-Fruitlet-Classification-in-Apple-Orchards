@@ -10,6 +10,7 @@ Two-stage approach for localizing apple fruitlet anatomical structures in high-r
 
 **Model**: TinyCLIP-ViT-61M-32-Text-29M-LAION400M
 - Lightweight vision-language model optimized for edge deployment
+- The finnetuned weights are in this repo but you can finetune it yourself using the dataset and notebook
 
 **Dataset**: 
 - 2,726 apple fruitlet image patches (224x224)
