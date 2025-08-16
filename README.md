@@ -90,13 +90,13 @@ project-name/
 - **Scifresh**: [Brief description of variety and collection details]
 
 ### Image Specifications:
-**Full Images**
+**Full Images:**
   - Format: High-resolution RGB images
   - Collection environment: Commercial apple orchards
   - Target structures: Calyxes, fruitlets, peduncles
   - Annotation method: ROBOFLOW annotations of the three target structures + negatives(randomly selected regions in the images that do not overlap the targeted structures annotations)
 
-**Cropped Images**
+**Cropped Images:**
 - Format: cropped 224x224 pixel images of the targeted structures from a full image
 - Method: Use ROBOFLOW annotations and python script to generate the /crop images
 ```
