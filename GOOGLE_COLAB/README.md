@@ -13,9 +13,12 @@ Two-stage approach for localizing apple fruitlet anatomical structures in high-r
 - The finetuned weights are in this repo but you can finetune it yourself using the dataset and notebook
 
 **Dataset**: 
-- 2,726 apple fruitlet image patches (224x224)
+- 600 full sized images from ROBOFLOW with COCO annotations
+- Data split 80/10/10 for training, validation, testing
+- Thousands of cropped apple fruitlet image patches (224x224) derived from the full sized images
 - 4 classes: calyx, fruitlet, peduncle, negative
 - Apple varieties: Scilate and Scifresh orchards
+(To use the dataset, it is uploaded in the main directory of the repo as train and valid; test is not uploaded)
 
 **Training**:
 - 5 epochs, batch size 32, BCEWithLogitsLoss
