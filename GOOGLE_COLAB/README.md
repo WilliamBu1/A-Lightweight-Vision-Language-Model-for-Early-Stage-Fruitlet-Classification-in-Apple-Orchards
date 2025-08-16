@@ -37,7 +37,7 @@ Two-stage approach for localizing apple fruitlet anatomical structures in high-r
 **Input**: High-resolution orchard images with COCO annotations
 **Output**: Visual heatmaps showing predicted locations of fruitlet structures
 
-## Key Innovation
+## Architecture Overview
 - **Patch-to-Image Pipeline**: Model trained on small patches generalizes to localize structures in full-resolution images
 - **Efficient Processing**: Batch processing prevents memory overflow on hundreds of patches per image
 - **Visual Localization**: Converts patch-level classifications into interpretable spatial heatmaps
