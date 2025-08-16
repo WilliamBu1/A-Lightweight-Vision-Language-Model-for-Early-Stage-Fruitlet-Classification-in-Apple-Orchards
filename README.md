@@ -36,7 +36,8 @@ GOOGLE_COLAB/
 │
 ├── tinyCLIP.ipynb
 ├── pipeline.ipynb
-└── file_example.md
+├── finetuned_tinyclip_multilabel.pt
+└── README.md
 ```
 
 ```
