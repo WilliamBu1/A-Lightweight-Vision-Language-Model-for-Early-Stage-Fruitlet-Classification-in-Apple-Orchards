@@ -3,8 +3,6 @@
 ## Overview
 Two-stage approach for localizing apple fruitlet anatomical structures in high-resolution orchard images using a fine-tuned TinyCLIP vision-language model.
 
-## Notebooks
-
 ⚠️ **Warning:** You may need to adjust the paths in the notebooks to be inlign with your specific setup. However it should mostly lineup if you upload necessary data into the Google Colab session content.
 
 
@@ -16,6 +14,7 @@ Two-stage approach for localizing apple fruitlet anatomical structures in high-r
 - Apple varieties: Scilate and Scifresh orchards
 (To use the dataset, it is uploaded in the main directory of the repo as train and valid; test is not uploaded)
 
+## Notebooks
 
 ### 1. TinyCLIP Fine-tuning (`tinyCLIP.ipynb`)
 **Purpose**: Fine-tune TinyCLIP model on small image patches for multi-label classification
