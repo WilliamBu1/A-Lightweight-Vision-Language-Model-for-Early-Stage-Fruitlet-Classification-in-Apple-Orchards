@@ -103,6 +103,18 @@ project-name/
 main/
 │
 ├── train/
+│   ├── full_image1.jpg
+│   ├── full_image2.jpg
+│   .
+│   .
+│   .
+│   ├── full_imagen.jpg
+│   └── crops/
+│       ├── calyx/
+│       ├── fruitlet/
+│       ├── peduncle/
+│       └── negative/
+└── valid/
     ├── full_image1.jpg
     ├── full_image2.jpg
     .
@@ -114,7 +126,6 @@ main/
         ├── fruitlet/
         ├── peduncle/
         └── negative/
-
 ```
     
 
