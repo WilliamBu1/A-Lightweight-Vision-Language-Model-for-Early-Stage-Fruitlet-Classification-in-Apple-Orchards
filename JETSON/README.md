@@ -18,7 +18,7 @@ This section of the repository describes the deployment of a fine-tuned **TinyCL
 
 3. **TensorRT Engine Build**  
    - ONNX model converted into a TensorRT engine (`.trt`) optimized for Jetson Orin.  
-   - Engine tuned for batch processing of patches in the range 1 - 32; optimized for 8
+   - Engine tuned for batch processing of patches in the range 1–32; optimized for **batch size = 8**.  
 
 ---
 
@@ -27,6 +27,23 @@ This section of the repository describes the deployment of a fine-tuned **TinyCL
 2. **TensorRT Inference**: Perform classification on batches of patches using the TensorRT engine.  
 3. **Heatmap Aggregation**: Assemble predictions into spatial probability maps.  
 4. **Visualization**: Generate class-specific heatmaps highlighting calyx, fruitlet, and peduncle regions.  
+
+---
+
+## Python Scripts  
+
+- **`tinyCLIPeval.py` / `final_eval.py` (Combined Evaluation)**  
+  - Perform image patch evaluation using TensorRT engines.  
+  - Computes classification metrics for each patch and aggregates results across datasets.  
+  - Outputs structured results for further analysis or visualization.  
+
+---
+
+## Notebooks  
+
+- **`sliding_window.ipynb`**  
+  - Demonstrates the heatmap generation pipeline.  
+  - Uses sliding window extraction, TensorRT inference, and patch aggregation to produce class-specific heatmaps of apple fruitlet structures.  
 
 ---
 
@@ -48,5 +65,5 @@ This section of the repository describes the deployment of a fine-tuned **TinyCL
 ---
 
 ## Limitations  
-- INT8 quantization failed in many layers and fellback to FP16.  
+- INT8 quantization failed in many layers and fell back to FP16.  
 - Heatmaps remain qualitative; quantitative localization metrics are not included.  
