@@ -6,7 +6,8 @@ Two-stage approach for localizing apple fruitlet anatomical structures in high-r
 ⚠️ **Warning:** You may need to adjust the paths in the notebooks to be inlign with your specific setup. However it should mostly lineup if you upload necessary data into the Google Colab session content.
 
 ## Python Scripts:
-Originally, there is only the full images, the crops folder and its 4 sub directory of targeted structures are generated via the _train_list1_2.py file in the main/train/ and main/valid/ directories of this repo. 
+The dataset preprocessing pipeline generates targeted structural crops from the original full-resolution images using the train_list1_2.py script. This automated process creates a hierarchical directory structure (crops/) with four subdirectories corresponding to specific anatomical or structural regions of interest. The preprocessing operates across both training (main/train/) and validation (main/valid/) partitions.
+The repository distribution includes pre-processed cropped images to facilitate immediate experimental setup. Users may optionally re-execute the preprocessing pipeline to customize crop parameters or regenerate the dataset with modified extraction criteria.
 
 ## Dataset: 
 (To use the dataset, it is uploaded in the main directory of this repo as train and valid; test is not uploaded)
