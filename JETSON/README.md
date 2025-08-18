@@ -29,6 +29,17 @@ This section of the repository describes the deployment of a fine-tuned **TinyCL
 
 ---
 
+## Dataset  
+
+- The dataset setup mirrors the **Google Colab workflow**, but is used locally on the Jetson Orin.  
+- Includes:
+  - Full-resolution orchard images (training/validation splits)  
+  - Cropped patches of apple fruitlets (224×224) for FP16/INT8 evaluation  
+  - Four classes: `calyx`, `fruitlet`, `peduncle`, `negative`  
+- **Important:** Proceed cautiously — users may need to alter paths in scripts and notebooks depending on where the dataset is stored locally.  
+
+---
+
 ## Python Scripts  
 
 - **`onnx2trt.py`**  
@@ -83,4 +94,4 @@ This section of the repository describes the deployment of a fine-tuned **TinyCL
 - INT8 quantization may fall back to FP16 in unsupported layers.  
 - Heatmaps remain qualitative; quantitative localization metrics are not included.  
 - Python environment is sensitive; users may need to carefully manage dependencies.  
-
+- Path adjustments may be necessary for dataset, scripts, and notebooks.  
