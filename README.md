@@ -39,7 +39,7 @@ GOOGLE_COLAB/
 ├── finetuned_tinyclip_multilabel.pt
 └── README.md
 ```
-### /JETSON
+### [JETSON](JETSON/)
 ```
 
 JETSON/
