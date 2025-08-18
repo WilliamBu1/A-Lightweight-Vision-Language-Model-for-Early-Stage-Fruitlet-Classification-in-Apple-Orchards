@@ -60,8 +60,8 @@ JETSON/
 ### Data Collection
 
 **Orchard Varieties:**
-- **Scilate**: [Brief description of variety and collection details]
-- **Scifresh**: [Brief description of variety and collection details]
+- **Scilate**
+- **Scifresh**
 
 ### Image Specifications:
 **Full Images:**
