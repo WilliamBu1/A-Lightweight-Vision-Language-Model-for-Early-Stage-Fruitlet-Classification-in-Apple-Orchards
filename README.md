@@ -19,7 +19,7 @@ We collected high-resolution RGB images from commercial apple orchards (Scilate 
 
 ### Technologies used
 
-- Google Colab
+- Google Colab + Jupyter NB
 - Jetson Orin
 - TinyCLIP VLM
 - Python
