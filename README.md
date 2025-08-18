@@ -39,9 +39,8 @@ GOOGLE_COLAB/
 ├── finetuned_tinyclip_multilabel.pt
 └── README.md
 ```
-
+### GOOGLE COLAB
 ```
-JETSON EDGE DEVICE
 
 project-name/
 │
