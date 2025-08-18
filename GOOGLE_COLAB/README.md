@@ -5,6 +5,8 @@ Two-stage approach for localizing apple fruitlet anatomical structures in high-r
 
 ⚠️ **Warning:** You may need to adjust the paths in the notebooks to be inlign with your specific setup. However it should mostly lineup if you upload necessary data into the Google Colab session content.
 
+## Python Scripts:
+Originally, there is only the full images, the crops folder and its 4 sub directory of targeted structures are generated via the _train_list1_2.py file in the main/train/ directory of this repo. 
 
 ## Dataset: 
 (To use the dataset, it is uploaded in the main directory of this repo as train and valid; test is not uploaded)
