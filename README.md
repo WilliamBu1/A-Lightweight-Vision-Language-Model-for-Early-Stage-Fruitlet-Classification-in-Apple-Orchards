@@ -48,7 +48,7 @@ JETSON/
 ├── final_eval.py
 ├── onnx2trt.py
 ├── tinyCLIPval.py
-├── sliding_window.ipynm
+├── sliding_window.ipynb
 ├── tinyclip_fp16_dynamic.trt
 ├── tinyclip_int8_dynamic.trt
 ├── tinyclip_dynamic.onnx
