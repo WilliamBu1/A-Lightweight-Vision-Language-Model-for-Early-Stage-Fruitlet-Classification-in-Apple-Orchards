@@ -28,7 +28,7 @@ We collected high-resolution RGB images from commercial apple orchards (Scilate 
 
 ## Repo Structure(Important Files)
 
-### /GOOGLE_COLAB
+### [GOOGLE_COLAB](GOOGLE_COLAB/)
 
 ```
 
