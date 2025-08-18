@@ -124,9 +124,7 @@ main/
 - Optimization for semantic alignment between image patches and text prompts
 
 **Fine-tuning Approach:**
-- [Details about transfer learning strategy]
-- [Hyperparameter optimization details]
-- [Training data distribution and sampling strategy]
+Training details can be found [Here] (GOOGLE_COLAB/README.md#training-configuration)
 
 ### Localization Pipeline
 
