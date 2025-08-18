@@ -124,7 +124,8 @@ main/
 - Optimization for semantic alignment between image patches and text prompts
 
 **Fine-tuning Approach:**
-Training details can be found [Here] (GOOGLE_COLAB/README.md#training-configuration:)
+Training details can be found [here](GOOGLE_COLAB/README.md#training-configuration)
+
 
 ### Localization Pipeline
 
