@@ -3,22 +3,21 @@
 ## Overview  
 This section of the repository describes the deployment of a fine-tuned **TinyCLIP** model on the NVIDIA Jetson Orin platform. The pipeline focuses on quantization and model optimization for real-time edge inference, followed by a TensorRT-accelerated heatmap generation process for localizing apple fruitlet anatomical structures.  
 
+> ⚠️ **Note:** Some paths in the scripts and notebooks may need to be adjusted based on your local setup. Additionally, the Python environment is sensitive due to dependency conflicts — careful setup is recommended.
+
 ---
 
 ## Workflow  
 
 ### 1. Model Conversion  
 1. **Export to ONNX**  
-   - Fine-tuned TinyCLIP PyTorch model exported to ONNX format (`.onnx`).  
+   - Fine-tuned TinyCLIP PyTorch model exported to ONNX format (`placeholder_model.onnx`).  
    - Verified for dynamic input shape compatibility with 224×224 patches.  
 
-2. **Quantization**  
-   - FP16 and INT8 quantization supported.  
-   - INT8 calibration performed using a representative dataset of apple fruitlet patches.  
-
-3. **TensorRT Engine Build**  
-   - ONNX model converted into a TensorRT engine (`.trt`) optimized for Jetson Orin.  
-   - Engine tuned for batch processing of patches in the range 1–32; optimized for **batch size = 8**.  
+2. **Quantization & TensorRT Engine Build**  
+   - Convert ONNX to TensorRT using the provided script: `onnx2trt.py`.  
+   - Supports FP16 and INT8 quantization.  
+   - Produces TensorRT engine files (`placeholder_model_fp16.trt`, `placeholder_model_int8.trt`) optimized for **batch size = 8** on Jetson Orin.  
 
 ---
 
@@ -32,10 +31,16 @@ This section of the repository describes the deployment of a fine-tuned **TinyCL
 
 ## Python Scripts  
 
+- **`onnx2trt.py`**  
+  - Converts an ONNX model into a TensorRT engine (`.trt`) with optional FP16 or INT8 quantization.  
+  - Batch size and workspace memory can be adjusted inside the script.  
+
 - **`tinyCLIPeval.py` / `final_eval.py` (Combined Evaluation)**  
   - Perform image patch evaluation using TensorRT engines.  
   - Computes classification metrics for each patch and aggregates results across datasets.  
   - Outputs structured results for further analysis or visualization.  
+
+> ⚠️ **Warning:** Users may need to modify file paths in the scripts for input images, ONNX models, or TRT engines.  
 
 ---
 
@@ -44,6 +49,16 @@ This section of the repository describes the deployment of a fine-tuned **TinyCL
 - **`sliding_window.ipynb`**  
   - Demonstrates the heatmap generation pipeline.  
   - Uses sliding window extraction, TensorRT inference, and patch aggregation to produce class-specific heatmaps of apple fruitlet structures.  
+
+> ⚠️ **Warning:** The notebook may require path adjustments depending on your local environment and folder structure.  
+
+---
+
+## Python Environment  
+
+- **Requirements**: `requirements.txt`  
+  - Contains all dependencies for Jetson inference and heatmap generation.  
+  - ⚠️ **Caution:** Some packages may conflict or fail to install due to version incompatibilities. It is recommended to use a dedicated Python virtual environment or conda environment.  
 
 ---
 
@@ -65,5 +80,7 @@ This section of the repository describes the deployment of a fine-tuned **TinyCL
 ---
 
 ## Limitations  
-- INT8 quantization failed in many layers and fell back to FP16.  
+- INT8 quantization may fall back to FP16 in unsupported layers.  
 - Heatmaps remain qualitative; quantitative localization metrics are not included.  
+- Python environment is sensitive; users may need to carefully manage dependencies.  
+
