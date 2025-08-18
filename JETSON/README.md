@@ -11,13 +11,13 @@ This section of the repository describes the deployment of a fine-tuned **TinyCL
 
 ### 1. Model Conversion  
 1. **Export to ONNX**  
-   - Fine-tuned TinyCLIP PyTorch model exported to ONNX format (`placeholder_model.onnx`).  
+   - Fine-tuned TinyCLIP PyTorch model exported to ONNX format (`tinyclip_dynamic.onnx`) using the provided script `pt2onnx.py`.  
    - Verified for dynamic input shape compatibility with 224×224 patches.  
 
 2. **Quantization & TensorRT Engine Build**  
    - Convert ONNX to TensorRT using the provided script: `onnx2trt.py`.  
    - Supports FP16 and INT8 quantization.  
-   - Produces TensorRT engine files (`placeholder_model_fp16.trt`, `placeholder_model_int8.trt`) optimized for **batch size = 8** on Jetson Orin.  
+   - Produces TensorRT engine files (`tinyclip_fp16_dynamic.trt`, `tinyclip_int8_dynamic.trt`) optimized for **batch size = 8** on Jetson Orin.  
 
 ---
 
