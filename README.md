@@ -26,9 +26,9 @@ We collected high-resolution RGB images from commercial apple orchards (Scilate 
 
 
 
-## Repo Structure
+## Repo Structure(Important Files)
 
-### GOOGLE COLAB
+### /GOOGLE_COLAB
 
 ```
 
@@ -39,46 +39,20 @@ GOOGLE_COLAB/
 ├── finetuned_tinyclip_multilabel.pt
 └── README.md
 ```
-### GOOGLE COLAB
+### /JETSON
 ```
 
-project-name/
+JETSON/
 │
-├── directory_example/
-│   ├── file_example.ipynb
-│   ├── file_example.ipynb
-│   ├── file_example.ipynb
-│   └── directory_example/
-│       ├── file_example.py
-│       └── file_example.py
-│
-├── directory_example/
-│   ├── file_example.py
-│   ├── directory_example/
-│   │   ├── file_example.py
-│   │   ├── file_example.py
-│   │   └── file_example.py
-│   │
-│   ├── directory_example/
-│   │   ├── file_example.py
-│   │   ├── file_example.py
-│   │   └── file_example.py
-│   │
-│   └── directory_example/
-│       ├── file_example.py
-│       └── file_example.py
-│
-├── directory_example/
-│   ├── directory_example/
-│   ├── directory_example/
-│   └── directory_example/
-│
-├── directory_example/
-│   ├── file_example.yaml
-│   └── file_example.yaml
-│
-├── file_example.txt
-└── file_example.md
+├── requirements.txt
+├── final_eval.py
+├── onnx2trt.py
+├── tinyCLIPval.py
+├── sliding_window.ipynm
+├── tinyclip_fp16_dynamic.trt
+├── tinyclip_int8_dynamic.trt
+├── tinyclip_dynamic.onnx
+└── README.md
 ```
 
 ## Dataset
